@@ -12,6 +12,15 @@ import "../styles/global.css";
   <title>Astro</title>
 </head>
 <body>
-<h1>Astro</h1>
+<h1 class="big-text">Astro</h1>
 </body>
 </html>
+<style>
+  .big-text {
+    background-color: aquamarine;
+
+    @media screen(lg) {
+      background-color: darkred;
+    }
+  }
+</style>
