@@ -1,0 +1,48 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "last_modified": "2026-09-14T07:18:56Z",
+      "resolved": "github:NixOS/nixpkgs/c7def046b9a883d46974757852106483d741586f?lastModified=1789370336"
+    },
+    "nodejs@26.5.1": {
+      "last_modified": "2026-08-01T16:34:20Z",
+      "plugin_version": "0.0.4",
+      "resolved": "github:NixOS/nixpkgs/a5cbcfe954791221bfffe2307f7d1a1bf61a871e#nodejs_26",
+      "source": "devbox-search",
+      "version": "26.5.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/a76l7kn8y5667cr1b4ji05dw8s8cvavp-nodejs-26.5.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/a76l7kn8y5667cr1b4ji05dw8s8cvavp-nodejs-26.5.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/z455bzfiyfxxrk1wb7b2mw1v4zyjsl5l-nodejs-26.5.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/z455bzfiyfxxrk1wb7b2mw1v4zyjsl5l-nodejs-26.5.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/5jygfy4i7ylxbb11z6f6awzcy6an6zy9-nodejs-26.5.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/5jygfy4i7ylxbb11z6f6awzcy6an6zy9-nodejs-26.5.1"
+        }
+      }
+    }
+  }
+}
